@@ -5,14 +5,14 @@ Alumni Connect is an application that helps you to connect, network & leverage y
 It is build using React, html, css, javaScript and for storing data firebase is use.
 
 # Features of this application
-Signup and Login
-Create a profile.
-Edit profile.
-Share posts(Photos, Text posts).
-Comment and Like on Posts.
-Connect to other users.
-Chating with your connections.
-View received and sent requests.
+1. Signup and Login
+2. Create a profile.
+3. Edit profile.
+4. Share posts(Photos, Text posts).
+5. Comment and Like on Posts.
+6. Connect to other users.
+7. Chating with your connections.
+8. View received and sent requests.
 
 
 # Project url
