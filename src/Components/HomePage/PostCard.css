@@ -1,0 +1,119 @@
+
+.postcard{
+    background-color: white ;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.postcard_image{ 
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+}
+.postcard_image > img{
+    object-fit: contain;
+    width: 100%;
+    max-height: 350px;
+}
+.postcard_video{ 
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+}
+.postcard_video > video{
+    object-fit: contain;
+    width: 100%;
+    max-height: 350px;
+}
+
+
+.postcard_text{
+    font-weight: normal;
+    padding: 20px;
+    border-top: 1px solid lightgray;
+    margin: 0;
+}
+
+.post_icon_container{
+    /* background: red; */
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.post_icons{
+    margin: 6px 14px;
+    color: rgb(93, 85, 85);
+}   
+      
+.post_icons_red{
+    margin: 6px 14px;
+    color: rgb(251, 59, 59);
+}   
+
+.postcard_input{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.postcard_header{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.postcard_avatar{
+    margin-right: 10px;
+}
+
+.postcard_commentBox{
+    display: flex;
+    width: 90%;
+    margin-left: 15px;
+    /* margin-bottom: 7px; */
+}
+
+.postcard_comments{
+    padding-left: 15px;
+    background: rgb(216, 212, 212);
+    border-radius: 3px;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+
+.postcard_comments::-webkit-scrollbar {
+    display: none;
+  }
+
+.postcard_input{
+    flex: 1;
+    border: none;
+    border: 1px solid lightgray;
+    outline-width: 0;
+}
+
+.postcard_button{
+    flex: 0;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color : #6082a3;
+    border-radius: 10px;
+}
+
+.postcard_button:hover{
+
+}
+

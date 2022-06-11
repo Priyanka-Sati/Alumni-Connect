@@ -1,0 +1,26 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 3px 10px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+.skills_heading{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skills_name{
+    display: flex;
+}
+
+.skills_info{
+    padding: 10px;
+    background-color: rgb(179, 205, 235);
+    margin: 2px;
+    border-radius: 5px;
+}

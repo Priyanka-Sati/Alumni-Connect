@@ -1,0 +1,82 @@
+.connection {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(211, 211, 211, 0.671);
+  overflow: hidden;
+  position: relative; 
+}
+
+.container_header {
+  height: 35%;
+  background-color: #222021;
+  background-image: linear-gradient(to top right, #332f31, #222021);
+  color: white;
+}
+
+.container_header > h1 {
+  margin: 0;
+  position: absolute;
+  top: 75px;
+  left: 180px;
+}
+
+.connection_container {
+  color: white;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 150px;
+}
+
+.menu {
+  color: black;
+  margin-right: 30px;
+}
+
+.menu_items {
+  width: 220px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: background-color 0.5s ;
+}
+.menu_items:hover{
+    background-color: skyblue;
+    cursor: pointer;
+    
+}
+
+.myconnection{
+  background-color: rgb(115, 200, 233);
+}
+
+.addconnection{
+  background-color: rgb(115, 200, 233);
+}
+
+.requests{
+  background-color: rgb(115, 200, 233);
+}
+
+.Sent{
+  background-color: rgb(115, 200, 233);
+}
+
+.active{
+    background-color: rgb(115, 200, 233);
+}
+
+.result {
+  height: 550px;
+  width: 65%;
+  background-color: rgb(223, 220, 220);
+  color: #222021;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  overflow-y: scroll;
+
+}
+.result::-webkit-scrollbar{
+    display: none;
+}

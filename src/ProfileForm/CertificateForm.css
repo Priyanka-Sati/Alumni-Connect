@@ -1,0 +1,38 @@
+.certificateform{
+    padding: 20px 60px;
+    border-radius: 15px;
+}
+
+.certificate-form{
+    margin-top: 50px;
+}
+
+.certificate-form > div{
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.ctitle > h3{
+    margin-right: 175px;
+}
+
+.c-organization > h3{
+ margin-right: 30px;
+}
+
+.certification-period > h3{
+    margin-right: 30px;
+}
+
+.certification-period{
+    display: flex;
+    justify-content: space-between;
+}
+
+.certification-period > div{
+    display: flex;
+}
+
+.certification-period > div > h3{
+    margin-right: 125px;
+}

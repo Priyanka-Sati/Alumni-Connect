@@ -1,0 +1,30 @@
+.homepage{
+    /* background-color: rgba(211, 211, 211, 0.671); */
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+ 
+.homepage_container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px 0px 50px;
+}
+.homepage_container_div{
+    border-radius: 10px;
+    margin: 0 10px ;
+}
+
+.leftdiv{   
+    width: 20%;
+}
+
+.middiv{
+    width: 60%;
+}
+
+.rightdiv{
+    width: 20%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

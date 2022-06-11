@@ -1,0 +1,37 @@
+.project {
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-bottom: 15px;
+  color: rgb(65, 62, 62);
+  border: 1px solid rgb(201, 197, 197);
+}
+
+.project_heading {
+  padding: 8px 0;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+
+.project_detail {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.project_detail > a{
+  text-decoration: none;
+  color: rgb(65, 62, 62);
+}
+
+.project_link {
+  border: 1px solid rgb(133, 130, 130);
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.project_link:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}

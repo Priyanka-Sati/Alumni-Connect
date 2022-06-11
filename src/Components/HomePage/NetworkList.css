@@ -1,0 +1,30 @@
+.networkslist{
+    /* width: 100%; */
+}
+
+.networkslist > h3{
+    margin-left: 10px;
+}
+ 
+.networklist_container{
+    overflow-y: scroll;
+    max-height: 81vh;
+}
+
+.networklist_container::-webkit-scrollbar{
+    display: none;
+}
+
+.network{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid white;
+    background-color: rgb(239, 241, 243);
+}
+
+.network_avatar{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

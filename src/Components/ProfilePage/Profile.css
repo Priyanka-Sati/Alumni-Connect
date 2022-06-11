@@ -1,0 +1,6 @@
+.profile{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 120px;
+}

@@ -1,0 +1,43 @@
+.textpost{
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+
+.textpost_avtar{
+    height: 100%;
+}
+
+.textpost_input {
+    width: 80%;
+    height: 100%;
+    margin-left: 10px;
+}
+.textpost_input  > input{
+    width: 98%;
+    height: 90%;
+    border-radius: 25px;
+    padding-left: 20px;
+    outline-width: 0;
+    border: 1px solid rgb(122, 114, 114);
+}
+.textpost_submit{
+    margin-left: 25px;
+    height: 100%;
+    width: 80px;
+}
+
+.textpost_submit > button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(33, 197, 33);
+    border: none;
+}
+
+.textpost_submit > button:hover{
+    cursor: pointer;
+    background-color: rgba(26, 192, 90, 0.671);
+}

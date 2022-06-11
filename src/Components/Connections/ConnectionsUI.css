@@ -1,0 +1,42 @@
+.connectionui_container {
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid rgb(173, 171, 171); */
+    /* border-radius: 20px; */
+  }
+       
+  .connectionui_container1 {
+    display: flex;
+    align-items: center;
+  }
+  .connectionui_container1 > h3 {
+    margin-left: 10px;
+  }
+  
+  .connectionui_container2 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .personicon {
+    transition: transform 400ms;
+  }
+  
+  .connectionui_container2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 1;
+    border-radius: 20px;
+  }
+  
+  .connectionui_container2 > h3 {
+    margin-left: 15px;
+  }
+
+  .connectionui_request{
+    display: flex;
+  }
+  

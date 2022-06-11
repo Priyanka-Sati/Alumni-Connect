@@ -1,0 +1,12 @@
+.postupload {
+  
+}
+.postupload_container1 {
+  margin-top: 8px;
+}
+
+.postupload_container2 {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}

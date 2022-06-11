@@ -1,0 +1,37 @@
+.internship {
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-bottom: 15px;  
+  color: rgb(65, 62, 62);
+  border: 1px solid rgb(201, 197, 197);
+}
+   
+.internship_heading {
+  padding: 8px 0;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+
+.internship_detail {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.internship_company_detail {
+  line-height: 6px;
+}
+
+.internship_company {
+  color: rgb(104, 101, 101);
+}
+
+.internship_date {
+  color: rgb(153, 149, 149);
+}
+
+.internship_explain {
+  margin-top: 45px;
+  color: rgb(73, 69, 69);
+}

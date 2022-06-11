@@ -1,0 +1,79 @@
+.personaldetail{
+    width: 30%;
+    margin: 50px 20px;
+    color: rgb(34, 33, 33);
+}
+
+.personaldetail_div{
+    background-color: white;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 10px;
+    padding: 15px 10px;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.personaldetail_div > button {
+    border-radius: 3px;
+    padding: 2px 10px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    border: 1px solid rgb(194, 191, 191);
+    float: right;
+    cursor: pointer;
+}
+
+.personaldetail_info{
+    width: 90%;
+    display: flex;
+    /* line-height: 10px; */
+}
+
+.personaldetail_info_div{
+    margin-left: 13px;
+}
+
+.branch{
+    font-size: 14px;
+}
+
+.year{
+    font-size: 15px;
+    line-height: 10px;
+}
+.dob{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.address{
+    font-size: 14px;
+}
+
+.personaldetail_info_div > h2{
+    margin: 0;
+}
+
+
+.personaldetail_bio{
+    background-color: white;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.personaldetail_website{
+    background-color: white;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    line-height: 9px;
+}
+
+.personaldetail_website > h3{
+    /* margin-top: 10px;*/
+    margin-bottom: 25px; 
+}

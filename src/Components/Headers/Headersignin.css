@@ -1,0 +1,44 @@
+.header{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #383838;
+}
+
+.header-input > input{
+    height: 25px;
+    width: 250px;
+    margin-right: 10px;
+    outline-width: 0;
+    padding-left: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.header-input > button{
+    margin-right:60px;
+    height: 26px;
+    width: 80px;
+    border-radius: 2px;
+    border: none;
+    background-color: #ffbf00;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px){
+    .header{
+        height: 150px;
+    }
+    .header-input > input{
+        width: 100px;
+
+    }
+    
+}

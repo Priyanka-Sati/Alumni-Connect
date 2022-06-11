@@ -1,0 +1,103 @@
+
+.login-outer-div{
+    background-color: lightgray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+     
+.login{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.login_data{
+    line-height: 20px;
+    height: fit-content;
+    width: 600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login_data > h1{
+    font-size: 60px;
+}
+.login_data > h2{
+    font-size: 30px;
+}
+.login_data > p{
+    font-size: 20px;
+}
+
+.login_container{
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.login_container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login_container > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline-width: 0;
+}
+
+.login-signup{
+    background-color: #359c12;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 3px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #7eb26d rgb(101, 167, 79) #3ae57f ;
+    cursor: pointer;
+}
+
+/* for small width screen sizes */
+@media only screen and (max-width: 1020px){
+    .login{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .login{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .login_data{
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 680px){
+    .login{
+        margin-top: 50px;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .login_data{
+        margin-bottom: 10px;
+    }
+    
+}

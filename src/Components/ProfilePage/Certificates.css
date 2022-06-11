@@ -1,0 +1,28 @@
+.certificate{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 15px;  
+    color: rgb(65, 62, 62);
+    border: 1px solid rgb(201, 197, 197);
+}
+
+.certificate_heading{
+    padding: 8px 0;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+}
+
+.certificate_details{
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.certificate_issuing_org{
+    color: rgb(153, 149, 149);
+}
+
+.certificate_date{
+    color: rgb(108, 106, 106);
+}

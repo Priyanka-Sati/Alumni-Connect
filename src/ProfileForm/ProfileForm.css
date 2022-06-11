@@ -1,0 +1,27 @@
+.profileform{
+    
+}
+
+.profilefome_menu{
+    background-color: rgb(207, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.profilefome_menu > div{
+    height: 80%;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profileform_field{
+    background-color: whitesmoke;
+    margin: 0 150px;
+    border-radius: 15px;
+}
